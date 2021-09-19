@@ -19,7 +19,7 @@ class Translation(object):
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "Özel bir küçük resim bulunamadı."
     NO_VOID_FORMAT_FOUND = "URL’yi kontrol edebilir misiniz? URL’den video biçimini tespit edemiyorum. Eğer botta bir hata bulursanız buradan bildirebilirsiniz https://github.com/spechide/All_Url_DownloaderBot/issues"
-    USER_ADDED_TO_DB = "{} 'E kadar {}' a <a href='tg://user?id={|'> {} </a> kullanıcısı eklendi.
+    USER_ADDED_TO_DB = "{} 'E kadar {}' a <a href='tg://user?id={|'> {} </a> kullanıcısı eklendi."
     CURENT_PLAN_DETAILS = """ Mevcut plan detayları
 --------
 Telegram ID: <code>{}</code>
