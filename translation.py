@@ -38,15 +38,16 @@ Plan name: Free Cloned User
 Expires on: 31/12/2020"""
     HELP_USER = """Hai am URL Uploader bot..
     
-1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
+1. Botga file/video url ni yuboring !
+2. O'zingizga kerakli tugamni bosing.
+3. Tugmalar vazifasi.
+
+
    SVideo - Give File as video with Screenshots
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
    
-<b>👉 Create own Clone Bot :</b> 👉 <a href="https://youtu.be/QkAkSLBgoYw">Diploy</a>
 
 --------
 Send /me to know current plan details
