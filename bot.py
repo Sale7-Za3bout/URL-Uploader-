@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# (c) Shrimadhav U K S A
 
 # the logging things
 import logging
@@ -28,11 +28,11 @@ if __name__ == "__main__" :
         root="plugins"
     )
     app = pyrogram.Client(
-        "AnyDLBot",
+        "All_Url_DownloaderBot",
         bot_token=Config.TG_BOT_TOKEN,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
         plugins=plugins
     )
-    Config.AUTH_USERS.add(683538773)
+    Config.AUTH_USERS.add(1024107352)
     app.run()

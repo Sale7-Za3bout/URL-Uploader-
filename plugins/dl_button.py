@@ -267,9 +267,9 @@ async def download_coroutine(bot, session, url, file_name, chat_id, message_id, 
         await bot.edit_message_text(
             chat_id,
             message_id,
-            text="""Initiating Download
+            text="""Yuklash natijasi
 URL: {}
-File Size: {}""".format(url, humanbytes(total_length))
+File hajmi: {}""".format(url, humanbytes(total_length))
         )
         with open(file_name, "wb") as f_handle:
             while True:
@@ -290,8 +290,8 @@ File Size: {}""".format(url, humanbytes(total_length))
                     try:
                         current_message = """**Download Status**
 URL: {}
-File Size: {}
-Downloaded: {}
+File hajmi: {}
+Yuklash: {}
 ETA: {}""".format(
     url,
     humanbytes(total_length),
