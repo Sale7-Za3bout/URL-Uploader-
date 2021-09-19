@@ -1,50 +1,50 @@
 class Translation(object):
-    START_TEXT = "/help komutunu kullanarak beni nasıl kullanacağını öğrenebilirsin\n/upgrade komutunu kullanarak premium özelliklerine sahip olabilirsin \n© @All_Url_DownloaderBot\n Çeviri @By_Azade tarafından yapılmıştır."
-    RENAME_403_ERR = "Üzgünüm. Dosyayı isimlendirmek için yeterli izinlerin yok"
-    ABS_TEXT = " Lütfen bencil olma"
-    UPGRADE_TEXT = "@All_Url_DownloaderBot <a href='https://t.me/SalomovAsliddin/599'>Ücretler</a>\nÜcreti ödedikten sonra  @shrimadhabot  a veya @SalomovAsliddin ye ödemenin yapıldığına dair ekran görüntüsü atmalısın"
-    FORMAT_SELECTION = "İstediğiniz formatı seçin: <a href='{}'>dosya boyutu yaklaşık olaraktır</a> \nÖzel küçük resim ayarlamak istiyorsanız, aşağıdaki düğmelerden birine dokunduktan önce veya sonra fotoğraf gönderin."
-    NOYES_URL = "@All_Url_DownloaderBot URL tespit edildi. Lütfen servisi kötüye kullanma!"
-    DOWNLOAD_START = "indirmeye çalışıyor"
-    UPLOAD_START = "yüklenmeye çalışılıyor"
-    RCHD_BOT_API_LIMIT = "izin verilen maksimum boyuttan (50MB) daha büyük Bununla birlikte, yüklemeye çalışıyorum."
-    RCHD_TG_API_LIMIT = "Afedersiniz. Ancak, Telegram API kısıtlamaları nedeniyle 1,5 GB'den büyük dosyaları yükleyemiyorum."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Lütfen yararlı bulursanız beni değerlendirin. https://t.me/tlgrmcbot?start=anydl_bot-bot"
-    NOT_AUTH_USER_TEXT = "Lütfen üyeliğinizi /upgrade komutunu kullanarak yükseltin."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Algılanan Dosya Boyutu: {}. Ücretsiz Kullanıcılar yalnızca yükleme yapabilir: {}\nLütfen üyeliğinizi /upgrade komutunu kullanarak yükseltin.\nEğer botta bir hata bulursanız buradan benimle iletişime geçebilirsiniz <a href='https://uzfilms.rf.gd '>@SalomovAsliddin</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "Özel video / dosya küçük resmi kaydedildi. Bu görüntü videoda / dosyada kullanılacak."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅  Özel küçük resim başarıyla temizlendi."
-    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Medya başarıyla temizlendi."
-    SAVED_RECVD_DOC_FILE = "Belge Başarıyla İndirildi"
+    START_TEXT = "Siz /help buyrug'i yordamida mendan qanday foydalanishni bilib olishingiz mumkin \n Siz /upgrade buyrug'i yordamida yuqori funktsiyalarga ega bo'lishingiz mumkin \n © @All_Url_DownloaderBot ."
+    RENAME_403_ERR = "Kechirasiz. Faylni nomlash uchun sizda etarli ruxsat yo'q"
+    ABS_TEXT = " Iltimos, xudbinlik qilmang"
+    UPGRADE_TEXT = "@All_Url_DownloaderBot <a href='https://t.me/SalomovAsliddin'> To'lovlar </a> \nTo'lovni to'lagandan so'ng, siz to'lovning skrinshotini @SalomovAsliddin_2oo4 yoki @SalomovAsliddinga yuborishingiz kerak."
+    FORMAT_SELECTION = "Istagan formatingizni tanlang: <a href='{}'>fayl hajmi </a> \nAgar siz maxsus eskiz o'rnatmoqchi bo'lsangiz, quyidagi tugmalardan birini bosishdan oldin yoki keyin rasm yuboring."
+    NOYES_URL = "@All_Url_DownloaderBot URL manzili aniqlandi. Iltimos, xizmatni buzmang!"
+    DOWNLOAD_START = "Server yuklanmoqda..."
+    UPLOAD_START = "Telegram yuklanmoqda..."
+    RCHD_BOT_API_LIMIT = "Ruxsat etilgan maksimal hajmdan kattaroq (50MB) Biroq, Biz uni o'rnatishga harakat qilyapmiz."
+    RCHD_TG_API_LIMIT = "Kechirasiz. Ammo Telegram API cheklovlari tufayli 1,5 Gb dan katta fayllarni yuklay olmaymiz."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Iltimos, menga foydali deb baho bering. https://t.me/SalomovAsliddin "
+    NOT_AUTH_USER_TEXT = "Iltimos, /upgrade buyrug'i yordamida obunangizni yangilang."
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Aniqlangan fayl hajmi: {}. Bepul foydalanuvchilar faqat yuklashi mumkin: {} \n Iltimos, /upgrade buyrug'i yordamida obunani yangilang. \n Botda xato topsangiz, bu erda men bilan bog'lanishingiz mumkin <ahref='https://uzfilms.rf.gd'> @SalomovAsliddin </a>"
+    SAVED_CUSTOM_THUMB_NAIL = "Maxsus video/fayl eskizi saqlandi. Bu rasm video/faylda ishlatiladi."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅  Maxsus eskiz muvaffaqiyatli o'chirildi."
+    FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media  tozalandi"
+    SAVED_RECVD_DOC_FILE = "Hujjat muvaffaqiyatli yuklandi."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_CUSTOM_THUMB_NAIL_FOUND = "Özel bir küçük resim bulunamadı."
-    NO_VOID_FORMAT_FOUND = "URL’yi kontrol edebilir misiniz? URL’den video biçimini tespit edemiyorum. Eğer botta bir hata bulursanız buradan bildirebilirsiniz https://github.com/spechide/All_Url_DownloaderBot/issues"
-    USER_ADDED_TO_DB = "{} 'E kadar {}' a <a href='tg://user?id={|'> {} </a> kullanıcısı eklendi."
+    NO_CUSTOM_THUMB_NAIL_FOUND = "Maxsus eskiz topilmadi."
+    NO_VOID_FORMAT_FOUND = "URLni tekshira olasizmi? URL formatidagi video formatini aniqlay olmayapman. Agar siz botda xato topsangiz, bu haqda xabar berishingiz mumkin t.me/SalomovAsliddin"
+    USER_ADDED_TO_DB = "{} ga {} gacha Foydalanuvchi <a href='tg://user?id={|'> {} </a>  qo'shildi."
     CURENT_PLAN_DETAILS = """ Mevcut plan detayları
 --------
 Telegram ID: <code>{}</code>
-Plan ismi: <a href='https://t.me/SalomovAsliddin/599'>{}</a>
-Bitiş tarihi: {}"""
-    HELP_USER = """Yapabileceğim çok şey var:
-👉 Tüm Desteklenen Video Formatları https://rg3.github.io/youtube-dl/supportedsites.html
-👉 Herhangi bir HTTP bağlantısından dosya olarak yükleyin
-👉 Herhangi bir Telegram ortamına izlenebilir Videoya Dönüştürme
-👉 Dosyaları Yeniden İsimlendirme, Özel Küçük Resim Ekleme
-👉 Herhangi bir Telegram dosyasının Yüksek Hızlı Doğrudan İndirme Bağlantısını Alın
+Reja nomi: <a href='https://t.me/SalomovAsliddin'>{}</a>
+Tugash sanasi: {}"""
+    HELP_USER = """Men qila oladigan ko'p narsalar bor:
+👉 Barcha qo'llab-quvvatlanadigan video formatlari https://rg3.github.io/youtube-dl/supportedsites.html
+👉 Har qanday HTTP havolasidan fayl sifatida yuklash
+👉 Telegramda ko'riladigan har qanday videoga aylantiring
+👉 Fayllarning nomini o'zgartiring, maxsus eskizlarni qo'shing
+👉 Har qanday Telegram faylining yuqori tezlikdagi to'g'ridan -to'g'ri yuklab olish havolasini oling
 --------
-/me komutunu kullanarak şuanki mevcut plan detaylarını görüntüle"""
-    REPLY_TO_DOC_GET_LINK = "Yüksek Hızlı Doğrudan İndirme Bağlantısı almak için bir Telegram ortamına yanıtlayın"
-    REPLY_TO_DOC_FOR_C2V = " Dönüştürmek için bir Telegram ortamına cevap verin"
-    REPLY_TO_DOC_FOR_RENAME_FILE = "Özel küçük resim desteğiyle (/rename) yeniden adlandırmak için bir Telegram ortamına yanıt verin"
-    AFTER_GET_DL_LINK = "Doğrudan indirme linki <a href='{}'>oluşturuldu</a> {} gün sonra süresi dolacak.\n© @All_Url_DownloaderBot"
-    FF_MPEG_RO_BOT_RE_SURRECT_ED = """Söz Dizimi: /trim HH:MM:SS [HH:MM:SS]"""
-    FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "İlk olarak yerel ortamıma indirebilmek için herhangi bir ortama /downloadmedia komutunu gönderin. \nŞu anda indirilmiş olan medyayı tanımak için  /storageinfo komutunu kullanın."
-    FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Süresi: {}\n/clearffmpegmedia komutunu kullanarak bu medyayı benim yerel ortamımdan silebilirsin.\n/trim HH:MM:SS [HH:MM:SS] komutunu kullanarak videoyu veya fotoğrafı küçük boyuna indirebilirsin kesebilirsin."
-    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "Kaydedilmiş bir medya zaten var. Lütfen/storageinfo komutunu kullanarak şu anki medya detaylarını öğrenebilirsin."
-    USER_DELETED_FROM_DB = "User <a href='tg://user?id={}'>{}</a> deleted from DataBase."
-    REPLY_TO_DOC_OR_LINK_FOR_RARX_SRT = "Gömülü altyazı çıkarmak için bir HTTP bağlantısına cevap verin"
-    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Özel bir küçük resim üretmek için  /generatecustomthumbnail komutunu kullanarak medyayı cevapla."
-    ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Medya Albümü yalnızca iki fotoğraf içermelidir. Lütfen medya albümünü tekrar gönderin ve tekrar deneyin veya bir albümde sadece iki fotoğraf gönderin."
-    INVALID_UPLOAD_BOT_URL_FORMAT = "URL formatı hatalıdır. Url şu şekilde olmalıdır http:// veya https://. Belirli bir dosyayı linki gönderirken isimlendirmek için bu formatı kullanın <link> | dosya uzantısı"
-    ABUSIVE_USERS = "Bu botu kullanmana izin verilmiyor. Bunun bir hata olduğunu düşünüyorsanız, buradan  <a href='https://UzFilms.rf.gd'>@SalomovAsliddin </a> iletişime geçin ve bu engellemeyi kaldırın."
+/me buyrug'i yordamida joriy reja tafsilotlarini ko'rish"""
+    REPLY_TO_DOC_GET_LINK = "Yuqori tezlikda to'g'ridan -to'g'ri yuklab olish havolasini olish uchun Telegram vositasida javob bering"
+    REPLY_TO_DOC_FOR_C2V = " Konvertatsiya qilish uchun Telegram vositasiga javob bering"
+    REPLY_TO_DOC_FOR_RENAME_FILE = "Maxsus eskiz yordamida nomini o'zgartirish uchun Telegram muhitiga javob bering (/rename)"
+    AFTER_GET_DL_LINK = "<a href='{}'> yaratilgan </a> to'g'ridan to'g'ri yuklash havolasi {} kundan keyin tugaydi. \n © @All_Url_DownloaderBot"
+    FF_MPEG_RO_BOT_RE_SURRECT_ED = """Sintaksis: /trim HH: MM: SS [HH: MM: SS]"""
+    FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "Birinchidan, /downloadmedia buyrug'ini har qanday ommaviy axborot vositasiga yuboring, shunda men uni mahalliy muhitga yuklay olaman. \ nHozir yuklab olingan axborot vositalarini tanib olish uchun /storageinfo buyrug'idan foydalaning.."
+    FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video davomiyligi: Siz bu ommaviy axborot vositasini mahalliy ommaviy axborot vositalaridan {} \n /clearffmpegmedia buyrug'i yordamida o'chirib tashlashingiz mumkin. \n /trim HH: MM: SS [HH: MM: SS] Siz buyruq yordamida video yoki rasmni kichik hajmga kesib qo'yishingiz mumkin."
+    FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "Yozib olingan media allaqachon mavjud. Hozirgi media ma'lumotlarini bilish uchun /storageinfo buyrug'idan foydalaning."
+    USER_DELETED_FROM_DB = "Foydalanuvchi <a href='tg://user?id={}'>{}</a> bazadan ochirildi."
+    REPLY_TO_DOC_OR_LINK_FOR_RARX_SRT = "Ichki taglavhalarni olish uchun HTTP ulanishiga javob bering"
+    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Maxsus eskiz yaratish uchun /generatecustomth buyrug'i yordamida ommaviy axborot vositalariga javob bering.."
+    ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media albomda faqat ikkita rasm bo'lishi kerak. Iltimos, media albomni qayta joylashtiring va qaytadan urinib ko'ring, yoki bitta albomga ikkita rasm joylashtiring."
+    INVALID_UPLOAD_BOT_URL_FORMAT = "URL formati noto'g'ri. URL http: // yoki https: // bo'lishi kerak. Havolasini joylashtirishda ma'lum bir faylga nom berish uchun ushbu formatdan foydalaning <link> | fayl kengaytmasi"
+    ABUSIVE_USERS = "Bu botdan foydalanishga ruxsat yo'q. Agar bu xato deb o'ylasangiz, bu erda <a href='https://UzFilms.rf.gd'> @SalomovAsliddin </a> bilan bog'laning va uni blokdan chiqaring."
     FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "@SalomovAsliddin "
