@@ -15,8 +15,8 @@ Support Group : @SalomovAsliddin_2004
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    DOWNLOAD_START = "Server yuklanmoqda..."
+    UPLOAD_START = "Telegram yuklanmoqda..."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File hajmi: {}\nUzur. Ammo siz 1.5GB dan katta file yuklay olmaysiz chunki Telegram max file hajmi 1.5GB"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Kanalga qo'shiling : @SalomovAsliddin"
